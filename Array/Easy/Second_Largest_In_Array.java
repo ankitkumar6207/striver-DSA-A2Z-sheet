@@ -31,6 +31,7 @@ public class Second_Largest_In_Array {
     if(arr[i]!=largest)
     {
         sLargest = arr[i];
+         return sLargest;
         break;
         
     }
