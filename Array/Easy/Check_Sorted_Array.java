@@ -18,7 +18,7 @@ is sorted.
 */
 public class Check_Sorted_Array {
     public static int isSorted(int n, int []a) {
-        for(int i=1;i<n-1;i++)
+        for(int i=1;i<n;i++)
         {
             if(a[i]>=a[i-1])
             {
